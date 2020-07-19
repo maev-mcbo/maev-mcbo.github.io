@@ -1494,6 +1494,7 @@ td, th {
   background: url(../img/banner-overlay1.png);
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 .banner-section2 .banner-left h1 {
   text-transform: uppercase;
