@@ -1,5 +1,5 @@
 /* =================================== */
-/*  Responsive Styles 
+/*  Responsive Styles
 /* =================================== */
 @media (max-width: 1024px) {
   .banner-section {
@@ -250,6 +250,8 @@
 @media (max-width: 736px) {
   .banner-section2 {
     background-size: cover !important;
+    padding-top: 120px;
+    /* text-align: center; */
   }
 }
 @media (max-width: 576px) {
@@ -330,5 +332,3 @@
     font-size: 35px;
   }
 }
-
-
