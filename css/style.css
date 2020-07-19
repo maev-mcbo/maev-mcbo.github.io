@@ -1485,7 +1485,7 @@ td, th {
 }
 
 .banner-section2 {
-  background: url(../img/banner2.jpg);
+  background: url(../img/banner2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2701,7 +2701,7 @@ td, th {
 /*  CTA Styles
 /* =================================== */
 .cta-section {
-  background: url(../img/banner2.jpg);
+  background: url(../img/banner2.png);
   background-attachment: fixed;
   background-size: cover;
 }
