@@ -375,10 +375,10 @@ td, th {
   -webkit-transform: translateY(-2px);
 }
 
-.page-top-banner {
+/* .page-top-banner {
   background: url(../img/about-header.jpg);
   background-size: cover;
-}
+} */
 .page-top-banner .overlay-bg {
   opacity: .8;
 }
