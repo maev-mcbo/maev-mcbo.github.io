@@ -291,6 +291,14 @@
   .footer-cols, .copyright-text, #social {
     text-align: center !important;
   }
+
+  
+  /*** MODSSS**/
+
+
+  .hidden-mobile{
+    display: none;
+  }
 }
 @media (max-width: 480px) {
   .single-counter h2 {
