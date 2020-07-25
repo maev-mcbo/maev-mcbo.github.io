@@ -317,6 +317,13 @@
     margin-left: 0px !important;
     margin-top: 20px;
   }
+
+    /*** MODSSS**/
+
+
+    .hidden-mobile{
+      display: none;
+    }
 }
 @media (max-width: 417px) {
   .page-top-banner h1 {
@@ -334,7 +341,15 @@
   .banner-section3 .banner-left h1 span, .banner-section2 .banner-left h1 span {
     font-size: 35px;
   }
+
+  /*** MODSSS**/
+
+
   .hidden-mobile{
     display: none;
+  }
+  .about-section{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
