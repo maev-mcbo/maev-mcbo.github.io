@@ -253,9 +253,7 @@
     padding-top: 120px;
     /* text-align: center; */
   }
-  .header-logo{
-    display: none;
-  }
+
 }
 @media (max-width: 576px) {
   .blog-section .row {
