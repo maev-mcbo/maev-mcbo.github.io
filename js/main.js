@@ -293,7 +293,8 @@ $('#screenshot-carusel').owlCarousel({
 var type = new Typed('.text', {
   strings: ['prueba'],
   typeSpeed:50,
-  backSpeed:50
+  backSpeed:50,
+  loop: true
 });
 
 
