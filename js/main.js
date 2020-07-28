@@ -294,8 +294,7 @@ $('#screenshot-carusel').owlCarousel({
   // typeeeeit
   // --
   new TypeIt(".saludo", {
-    strings: "Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet
-    tener tu propia tienda, o una revista digital trabajemos juntos",
+    strings: "Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos",
     speed: 75,
     loop: true
   }).go();
