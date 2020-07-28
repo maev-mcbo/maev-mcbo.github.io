@@ -295,12 +295,12 @@ $('#screenshot-carusel').owlCarousel({
   // --
 
   new TypeIt(".entrada", {
-  speed: 50,
+  speed: 75,
   startDelay: 900,
   cursor:false,
   lifeLike:true
 })
-  .type("<h1>¡Hola!,</h1>", {delay: 100})
+  .type("<h1>¡Hola!</h1>", {delay: 100})
   .type(" <h1>Soy Mario Echeverria CEO de <span>ME Agency.</span></h1>",{delay:100})
   .type(null,{delay:100})
   .type("<p>Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos</p>")
