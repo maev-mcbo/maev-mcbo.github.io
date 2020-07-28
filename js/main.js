@@ -290,7 +290,7 @@ $('#screenshot-carusel').owlCarousel({
     });
   });
 
-var type = new Typed('.text', {
+var Typed = new Typed('.text', {
   strings: ['prueba'],
   typeSpeed:50,
   backSpeed:50,
