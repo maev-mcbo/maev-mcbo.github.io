@@ -294,7 +294,7 @@ $('#screenshot-carusel').owlCarousel({
   // typeeeeit
   // --
 
-  new TypeIt("entrada", {
+  new TypeIt(".entrada", {
   speed: 50,
   startDelay: 900
 })
