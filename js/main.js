@@ -290,8 +290,12 @@ $('#screenshot-carusel').owlCarousel({
     });
   });
 
-  new TypeIt(".text", {
-    strings: "This is my string!",
+  // ------------------------------------------------------------------------------ //
+  // typeeeeit
+  // --
+  new TypeIt(".saludo", {
+    strings: "Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet,
+    tener tu propia tienda, o una revista digital. \¡Trabajemos Juntos\!",
     speed: 75,
     loop: true
   }).go();
