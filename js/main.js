@@ -294,13 +294,13 @@ $('#screenshot-carusel').owlCarousel({
   // typeeeeit
   // --
 
-  new TypeIt(".entrada", {
+  new TypeIt2(".entrada", {
   speed: 50,
   startDelay: 900
 })
   .type("¡Hola!,", {delay: 100})
   .type(" Soy Mario Echeverria CEO de",{delay:100})
-  .type("<br> <span>ME Agency.</span>");
+  .type("<br> <span>ME Agency.</span>")
   .go();
 
 
