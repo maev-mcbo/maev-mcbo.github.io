@@ -298,10 +298,10 @@ $('#screenshot-carusel').owlCarousel({
   speed: 50,
   startDelay: 900
 })
-.type("¡Hola!,", {delay: 100})
-.type(" Soy Mario Echeverria CEO de",{delay:100})
-.type("<br> <span>ME Agency.</span>")
-.go();
+  .type("¡Hola!,", {delay: 100})
+  .type(" Soy Mario Echeverria CEO de",{delay:100})
+  .type("<br> <span>ME Agency.</span>");
+  .go();
 
 
   new TypeIt(".saludo", {
