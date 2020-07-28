@@ -297,7 +297,7 @@ $('#screenshot-carusel').owlCarousel({
   new TypeIt(".entrada", {
   speed: 75,
   startDelay: 900,
-  // cursor:false,
+  cursor:false,
   lifeLike:true
 })
   .type("<h1>¡Hola!, Soy Mario Echeverria CEO de </h1>", {delay: 100})
