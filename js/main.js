@@ -303,7 +303,7 @@ $('#screenshot-carusel').owlCarousel({
   .type("<h1>¡Hola!</h1>", {delay: 100})
   .type(" <h1>Soy Mario Echeverria CEO de <span>ME Agency.</span></h1>",{delay:100})
   .type(null,{delay:100})
-  .type("<p>Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos</p>")
+  .type("<p>Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos</p>",{speed: 150})
   .go();
 
 
