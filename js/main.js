@@ -294,7 +294,7 @@ $('#screenshot-carusel').owlCarousel({
   // typeeeeit
   // --
 
-  new TypeIt2(".entrada", {
+  new TypeIt(".entrada", {
   speed: 50,
   startDelay: 900
 })
@@ -304,12 +304,12 @@ $('#screenshot-carusel').owlCarousel({
   .go();
 
 
-  new TypeIt(".saludo", {
-    strings: "Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos",
-    speed: 130,
-    nextStringDelay: 50,
-    lifeLike: true
-  }).go();
+  // new TypeIt(".saludo", {
+  //   strings: "Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos",
+  //   speed: 130,
+  //   nextStringDelay: 50,
+  //   lifeLike: true
+  // }).go();
 
 
 
