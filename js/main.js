@@ -290,12 +290,11 @@ $('#screenshot-carusel').owlCarousel({
     });
   });
 
-var Typed = new Typed('.text', {
-  strings: ['prueba'],
-  typeSpeed:50,
-  backSpeed:50,
-  loop: true
-});
+  new TypeIt(".text", {
+    strings: "This is my string!",
+    speed: 75,
+    loop: true
+  }).go();
 
 
 
