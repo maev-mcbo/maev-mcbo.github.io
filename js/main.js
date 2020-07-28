@@ -300,9 +300,9 @@ $('#screenshot-carusel').owlCarousel({
   cursor:false,
   lifeLike:true
 })
-  .type("¡Hola!,", {delay: 100})
+  .type("<h1>¡Hola!,", {delay: 100})
   .type(" Soy Mario Echeverria CEO de",{delay:100})
-  .type("<br> <span>ME Agency.</span>",{delay:100})
+  .type("<br> <span>ME Agency.</span></h1>",{delay:100})
   .type("Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos")
   .go();
 
