@@ -293,9 +293,20 @@ $('#screenshot-carusel').owlCarousel({
   // ------------------------------------------------------------------------------ //
   // typeeeeit
   // --
+
+  new TypeIt("entrada", {
+  speed: 50,
+  startDelay: 900
+})
+.type("¡Hola!,", {delay: 100})
+.type(" Soy Mario Echeverria CEO de",{delay:100})
+.type("<br> <span>ME Agency.</span>")
+.go();
+
+
   new TypeIt(".saludo", {
     strings: "Somos la solucion para hacer realidad tu sueño, solo si quieres tener precencia en internet tener tu propia tienda, o una revista digital trabajemos juntos",
-    speed: 100,
+    speed: 130,
     nextStringDelay: 50,
     lifeLike: true
   }).go();
