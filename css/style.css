@@ -3048,3 +3048,9 @@ td, th {
 .footer-section .footer-cols ul li a:hover {
   color: #691cff;
 }
+
+/********************/
+#map{
+  width: 100%;
+  height: 200px;
+}
