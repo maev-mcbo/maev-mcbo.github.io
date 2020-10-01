@@ -317,7 +317,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1Ijoic295b3giLCJhIjoiY2tmMXR1c2hpMjJ1ZTJ6bDltbGVobXF1bCJ9.J10wJSUcOZHap6PF7Aryxg'
 })
-.addLayer(styleLayer = L.mapbox.styleLayer('mapbox://styles/soyox/ckfq4kxb812141aocpnjvtexw'));
+.addLayer(styleLayer = L.mapbox.styleLayer('mapbox://styles/soyox/ckfq4kxb812141aocpnjvtexw')),
 L.mapbox.featureLayer({
   // this feature is in the GeoJSON format: see geojson.org
   // for the full specification
