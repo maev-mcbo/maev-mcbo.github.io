@@ -318,7 +318,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1Ijoic295b3giLCJhIjoiY2tmMXR1c2hpMjJ1ZTJ6bDltbGVobXF1bCJ9.J10wJSUcOZHap6PF7Aryxg'
 })
 L.marker([10.6417, -71.6295], {
-  icon: L.map.marker.icon({
+  icon: L.map.marker({
       'marker-size': 'large',
       'marker-symbol': 'bus',
       'marker-color': '#fa0'
