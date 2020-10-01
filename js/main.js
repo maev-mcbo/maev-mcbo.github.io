@@ -318,28 +318,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1Ijoic295b3giLCJhIjoiY2tmMXR1c2hpMjJ1ZTJ6bDltbGVobXF1bCJ9.J10wJSUcOZHap6PF7Aryxg'
 })
 .addLayer(styleLayer = L.mapbox.styleLayer('mapbox://styles/soyox/ckfq4kxb812141aocpnjvtexw')),
-L.mapbox.featureLayer({
-  // this feature is in the GeoJSON format: see geojson.org
-  // for the full specification
-  type: 'Feature',
-  geometry: {
-      type: 'Point',
-      // coordinates here are in longitude, latitude order because
-      // x, y is the standard for GeoJSON and many formats
-      coordinates: [
-        10.6417,
-        -71.6295
-      ]
-  },
-  properties: {
-      title: 'Me Agency',
-      description: '1718 14th St NW, Washington, DC',
-      // one can customize markers by adding simplestyle properties
-      // https://www.mapbox.com/guides/an-open-platform/#simplestyle
-      'marker-size': 'large',
-      'marker-color': '#BE9A6B',
-      'marker-symbol': 'cafe'
-  }
+
 .addTo(mymap);
 
 })(jQuery);
