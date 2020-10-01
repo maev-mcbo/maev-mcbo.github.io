@@ -316,9 +316,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'pk.eyJ1Ijoic295b3giLCJhIjoiY2tmMXR1c2hpMjJ1ZTJ6bDltbGVobXF1bCJ9.J10wJSUcOZHap6PF7Aryxg'
-})
-.addLayer(styleLayer = L.mapbox.styleLayer('mapbox://styles/soyox/ckfq4kxb812141aocpnjvtexw')),
-
-.addTo(mymap);
+}
+L.addLayer(styleLayer = L.mapbox.styleLayer('mapbox://styles/soyox/ckfq4kxb812141aocpnjvtexw')),
+).addTo(mymap);
 
 })(jQuery);
