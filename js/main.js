@@ -278,7 +278,7 @@ $('#screenshot-carusel').owlCarousel({
       dataType: 'json',
       cache: false,
       data: $('#contact-form').serialize(),
-      success: function (data) {
+      success: (data) => {
 
         if (data.info !== 'error') {
           $this.parents('form').find('input[type=text],input[type=email],textarea,select').filter(':visible').val('');
