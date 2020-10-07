@@ -662,7 +662,7 @@
             </div>
             <div class="row justify-content-center form-row">
                 <div class="col-lg-9">
-                    <form id="contact-form" action="#">
+                    <form id="contact-form" action="#" method="POST">
                         <div class="row contact-form-wrap justify-content-center">
                             <div class="col-md-6 contact-name form-col">
                                 <input name="name" id="name" class="form-control" type="text" placeholder="Name*"
@@ -683,6 +683,30 @@
                 </div>
             </div>
         </div>
+        <?php
+       $name = $_POST['name'];
+       $email = $_POST['email'];
+       $message = $_POST['message'];
+       $from = 'From: My Contact Form';
+       $to = 'lcdoecheverria@gmail.com';
+       $subject = 'Wassup?';
+
+       $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+
+       if ($_POST['submit']) {
+           if (mail ($to, $subject, $body, $from)) {
+           echo '<p>Message Sent Successfully!</p>';
+           } else {
+           echo '<p>Ah! Try again, please?</p>';
+           }
+       }
+    ?>
+
+
+
+
+
+
     </section>
     <!-- End contact section -->
 
