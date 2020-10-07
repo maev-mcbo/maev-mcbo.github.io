@@ -668,24 +668,16 @@
             </div>
             <div class="row justify-content-center form-row">
                 <div class="col-lg-9">
-                    <form id="contact-form" action="#">
-                        <div class="row contact-form-wrap justify-content-center">
-                            <div class="col-md-6 contact-name form-col">
-                                <input name="name" id="name" class="form-control" type="text" placeholder="Name*"
-                                    onfocus="this.placeholder=''" onblur="this.placeholder='Name*'">
-                            </div>
-                            <div class="col-md-6 contact-email form-col">
-                                <input name="mail" id="mail" class="form-control" type="email" placeholder="E-mail*"
-                                    onfocus="this.placeholder=''" onblur="this.placeholder='Email*'">
-                            </div>
-                            <div class="col-lg-12">
-                                <textarea name="comment" id="comment" class="form-control" rows="8" placeholder="Message"
-                                    onfocus="this.placeholder=''" onblur="this.placeholder='Message*'"></textarea>
-                            </div>
-                            <input type="submit" class="primary-btn" value="Enviar Mensaje" id="submit-message">
-                            <div id="msg" class="message"></div>
-                        </div>
-                    </form>
+                 <form id="contact-form">
+        <input type="hidden" name="contact_number">
+        <label>Name</label>
+        <input type="text" name="user_name">
+        <label>Email</label>
+        <input type="email" name="user_email">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <input type="submit" value="Send">
+    </form>
                     
                 </div>
             </div>
