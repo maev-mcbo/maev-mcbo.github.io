@@ -289,4 +289,28 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1Ijoic295b3giLCJhIjoiY2tmMXR1c2hpMjJ1ZTJ6bDltbGVobXF1bCJ9.J10wJSUcOZHap6PF7Aryxg'
 }).addTo(mymap);
 
+
+//---------------MAILJS------------//
+
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_yujbz8c';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+
 })(jQuery);
